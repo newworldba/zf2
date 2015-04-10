@@ -43,7 +43,24 @@ return array(
 apigility或者下面的部分中，都会用到的一些专业术语
 
 Entity
+	一个将会返回信息东西，Entities由唯一的标识URI定义。
+Collection
+	一个设置entities的东西，通常在collection中包含的所有entities是同一个类型，将共用一个基本的uri
+Resource
+	接收请求参数，确定collection和entities是否能被uri所解析,并确定要执行什么操作
+Relational Links
+	一个描述关系的资源URI，关系连接允许你描述不同的entities和collections之间的区别，你也可以直接链接到这个地方，以便服务客户端可以在这些关系上执行操作，这些有时也叫做hypermedia links
+REST服务会返回entities和collections,还提供entities和collection中间的超媒体链接，资源对象协调操作后，返回entities和collections
+
+创建一个rest service
+这个章节中我们将会创建一个简单的rest service
+进入APIs显示页，我们在前一个章节中创建了“Status”API，接下来悬着个这个“REST Service”菜单项
 	
+点击创建“Create New REST Service”按钮
+接下来的对话框中有两个tabs，一个似乎创建“Code-Connected”服务，另一个是创建"Db-Connected"服务
+
+	Code-Connected 和 DB-Connected service
+		当你创建一个Code-Connected服务是，apigility创建了一个资源类来定义所有可以在rest服务中被操作的变量，这些操作会返回“405 Method Not Allowed”响应，你把这些写到代码中就不会出现这种情况了。
 
 
 
