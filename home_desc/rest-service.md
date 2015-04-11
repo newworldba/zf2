@@ -73,7 +73,7 @@ REST服务会返回entities和collections,还提供entities和collection中间�
 	
 ##点击创建“Create New REST Service”按钮##
 ---------------
-[Create New REST Service]:  https://apigility.org/apigility-documentation/img/intro-first-rest-service-new-rest-service.png
+![Alt text](https://apigility.org/apigility-documentation/img/intro-first-rest-service-new-rest-service.png "Optional title") 
 接下来的对话框中有两个tabs，一个似乎创建“Code-Connected”服务，另一个是创建"Db-Connected"服务
 
 ##Code-Connected 和 DB-Connected service##
