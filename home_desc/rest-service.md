@@ -73,11 +73,12 @@ REST服务会返回entities和collections,还提供entities和collection中间�
 	
 ##点击创建“Create New REST Service”按钮##
 ---------------
+[Create New REST Service]:  https://apigility.org/apigility-documentation/img/intro-first-rest-service-new-rest-service.png
 接下来的对话框中有两个tabs，一个似乎创建“Code-Connected”服务，另一个是创建"Db-Connected"服务
 
 ##Code-Connected 和 DB-Connected service##
 ---------------
-		当你创建一个Code-Connected服务是，apigility创建了一个资源类来定义所有可以在rest服务中被操作的变量，这些操作会返回“405 Method Not Allowed”响应，你把这些写到代码中就不会出现这种情况了。
+当你创建一个Code-Connected服务是，apigility创建了一个资源类来定义所有可以在rest服务中被操作的变量，这些操作会返回“405 Method Not Allowed”响应，你把这些写到代码中就不会出现这种情况了。
 
 
 
